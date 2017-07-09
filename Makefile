@@ -1,6 +1,6 @@
-BASE_NAME := thesis
+BASE_NAME := tcc
 BUILD_DIR := build
-PDF_NAME := GraduationThesisJoaoGuimaraes.pdf
+PDF_NAME := TccFgaEglish.pdf
 
 PDFLATEX_OPTIONS = -halt-on-error -aux-directory=$(BUILD_DIR) -output-directory=$(BUILD_DIR)
 LATEX     := latex
