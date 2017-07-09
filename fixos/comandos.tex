@@ -1,0 +1,12 @@
+\renewcommand{\backrefpagesname}{Cited in page(s):~}
+\renewcommand{\backref}{}
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Not cited in the text.%
+	\or
+		Cited in page #2.%
+	\else
+		Cited #1 times in page #2.%
+	\fi}%
+% ---
+
